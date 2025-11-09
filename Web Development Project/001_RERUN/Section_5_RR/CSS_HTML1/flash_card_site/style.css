@@ -3,11 +3,23 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  
 
+}
+
+h2 {
+    text-align: center;
 }
 
 .loading_screen {
     width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 8px solid rgb(140, 140, 145);
+    border-bottom: 30px solid rgb(69, 69, 84);
+    border-left: 35px solid rgb(103, 103, 106);
+    border-right: 5px solid rgb(116, 116, 119);
 }
 
 footer {
