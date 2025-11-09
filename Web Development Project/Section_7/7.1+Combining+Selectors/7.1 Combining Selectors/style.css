@@ -1,0 +1,22 @@
+/* Write your code here: */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/*only works 1 lv under*/
+.box > p {
+    color: firebrick;
+}
+
+.box li{
+    color: blue;
+}
+
+/* when chaining, always start with the element*/
+li.done {
+    color: green;
+}
+ul p.done {
+    color: orange;
+}

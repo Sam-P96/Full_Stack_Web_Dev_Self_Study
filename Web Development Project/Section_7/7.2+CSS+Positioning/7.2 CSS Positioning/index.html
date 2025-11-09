@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .red-circle {
+      background-color: white;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      position: relative; /* This works cus red circle is inside blue rectangle */
+      left: 175px;
+      top: -125px;
+      z-index: 2;
+    }
+    .blue-box {
+      background-color: red;
+      width: 500px;
+      height: 300px;
+      position:fixed;
+      left: 200px;
+      top: 200px;
+    }
+    .bluein {
+      background-color: blue;
+      width: 500px;
+      height: 200px;
+      position: relative;
+      z-index: 1;
+      top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="bluein">
+    </div>
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>
