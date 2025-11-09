@@ -1,0 +1,17 @@
+#picture {
+    margin-top: 60px;
+    width: 800px;
+    border: 5px solid yellow;
+}
+
+* {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 350;
+}
+
+h1 {
+    color: yellow
+}
