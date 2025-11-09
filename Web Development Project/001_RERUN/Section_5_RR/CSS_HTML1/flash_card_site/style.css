@@ -1,0 +1,22 @@
+* { 
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+.loading_screen {
+    width: 300px;
+}
+
+footer {
+    font-size: 20px;
+}
+
+#foot_1 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
